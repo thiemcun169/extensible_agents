@@ -1,0 +1,11 @@
+{
+  "name": "Writer Agent",
+  "description": "Takes structured data and produces polished executive summaries, reports, and presentations in natural language.",
+  "endpoint": "agent://writer",
+  "capabilities": ["executive_summary", "report_writing", "formatting"],
+  "auth_required": false,
+  "metadata": {
+    "model": "gpt-4.1-nano",
+    "output_formats": ["markdown", "plain_text"]
+  }
+}

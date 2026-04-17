@@ -1,0 +1,12 @@
+{
+  "name": "Analytics Agent",
+  "description": "Analyzes revenue data and generates KPI reports. Uses MCP tools to query business data and applies the KPI Report Skill for formatted output.",
+  "endpoint": "agent://analytics",
+  "capabilities": ["kpi_report", "revenue_query", "data_analysis"],
+  "auth_required": false,
+  "metadata": {
+    "model": "gpt-4.1-nano",
+    "mcp_tools": ["query_revenue", "list_products"],
+    "skills": ["kpi-report"]
+  }
+}
